@@ -1,0 +1,151 @@
+.container{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas:cabecalho   cabecalho
+                         parte
+                         principal  box;
+                         }
+.cabecalho{
+    grid-area: cabecalho;
+    width: 1814;
+    height: 50;
+    margin-left:0;
+    color: black;
+    font-size: 22;
+    background-color:#C0C0C0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.parte{
+     grid-area: parte;
+    width: 930;
+    height: 450;
+    background-color:#C0C0C0;
+    margin-left: 110px;
+    border: 10px;
+}
+.principal{
+    grid-area: principal;
+    width: 930;
+    height: 450;
+    background-color:#C0C0C0;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.box{
+    grid-area: box;
+    width: 530;
+    height: 450;
+    margin-left: 1110px;
+    grid-gap: 0;
+    background-color:#C0C0C0;
+     margin-top :-680px;
+     }  
+     .one{
+        width: 930;
+        height: 450;
+    }
+    .two{
+        width: 930;
+        height: 450;
+    }
+    .three{
+        width: 630;
+        height: 450;
+        }
+        *{
+            background-color:#A9A9A9;
+        }
+        h1{
+            color: black;
+            font-size: 22;
+            background-color:#C0C0C0;
+            text-align: center;
+        }
+        
+        h2{
+            color: black;
+            font-size: 18;
+            background-color:#C0C0C0;
+            text-align: center;
+        }
+        .escrita{
+            text-align: end;
+            width: 1700px;
+            text-indent: 50px;
+                }
+                .pagi{
+                    text-align: end;
+            width: 1700px;
+            text-indent: 50px;
+                        }
+        .page{
+            text-align: end;
+            width: 1700px;
+            text-indent: 50px;
+         }
+         .four{
+            text-align: end;
+            width: 1700px;
+            text-indent: 50px;
+         }
+         .five{
+            text-align: end;
+            width: 1700px;
+            text-indent: 50px;
+         }
+         .six{
+            text-align: end;
+            width: 1700px;
+            text-indent: 50px;
+         }
+         .seven{
+            text-align: end;
+            width: 1700px;
+            text-indent: 50px;
+         }
+         .eight{
+            text-align:  end;
+            width: 1700px;
+            text-indent: 50px;
+         }
+         .nine{
+            text-align:  end;
+            width: 1700px;
+            text-indent: 50px;
+         }
+         .ten{
+            text-align: end;
+            width: 1700px;
+            text-indent: 50px;
+         }
+         .eleven{
+            text-align: end;
+            width: 1700px;
+            text-indent: 50px;
+         }
+         body{
+            width: 98%;
+        
+        }
+        @media screen and (max-width:600px) {
+            #container {
+                display:grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        @media screen and (max-width:768px){
+            #container {
+                display:grid
+            }
+        }
+        @media screen and(max-width:992px){
+            #container{
+                display:grid
+            }
+        }
+        @media screen and (max-width:1200px) { 
+            #container{
+                display:grid
+            }
+        }

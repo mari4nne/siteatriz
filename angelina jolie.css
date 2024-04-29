@@ -1,0 +1,118 @@
+*{
+    background-color:#A9A9A9;
+}
+h1{
+    color: black;
+    font-size: 22;
+    background-color:#C0C0C0;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    font-size: 18;
+    background-color:#C0C0C0;
+    text-align: center;
+}
+img{
+    width: 830;
+    height: 450;
+    margin-left: 450;
+}
+ body{
+    width: 98%;
+     }
+     .one{
+        text-align:end;
+        width: 1700px;
+        text-indent: 50px;
+     }
+     .two{
+        text-align: end;
+        width: 1700px;
+        text-indent: 50px;
+     }
+     .three{
+            text-align:end;
+            width: 1700px;
+            text-indent: 50px;
+     }
+     .four{
+            text-align:justify;
+            width: 1700px;
+            text-indent: 50px;
+     }
+     
+     .five{
+        text-align:justify;
+            width: 1700px;
+            text-indent: 50px;
+     }
+     .six{
+        text-align:justify;
+            width: 1700px;
+            text-indent: 50px;
+     }
+     .seven{
+        text-align:justify;
+            width: 1700px;
+            text-indent: 50px;
+     }
+     .eight{
+        text-align:justify;
+            width: 1700px;
+            text-indent: 50px;
+     }
+     .nine{
+        text-align:justify;
+            width: 1700px;
+            text-indent: 50px;
+     }
+     .ten{
+        text-align:justify;
+            width: 1700px;
+            text-indent: 50px;
+     }
+     .eleven{
+        text-align:justify;
+            width: 1700px;
+            text-indent: 50px;
+     }
+     .twelve{
+        text-align:justify;
+            width: 1700px;
+            text-indent: 50px;
+     }
+     .thirteen{
+        text-align:justify;
+            width: 1700px;
+            text-indent: 50px;
+     }
+     .fourteen{
+        text-align: right;
+     }
+     .fifteen{
+        text-align: right;
+     }
+     @media screen and (max-width:600px) {
+      #container {
+          display:grid;
+          grid-template-columns: 1fr 1fr;
+      }
+  }
+  @media screen and (max-width:768px){
+      #container {
+          display:grid
+      }
+  }
+  @media screen and(max-width:992px){
+      #container{
+          display:grid
+      }
+  }
+  @media screen and (max-width:1200px) { 
+      #container{
+          display:grid
+      }
+  }
+     
